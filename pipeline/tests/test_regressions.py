@@ -766,8 +766,8 @@ def test_pr0103_by_name_ignore_accents(om):
 
 
 @pytest.mark.parametrize("om", [openminds.latest])
-def test_pr_XXX_by_name_ignore_separators(om):
-    # https://github.com/openMetadataInitiative/openMINDS_Python/pull/XXX
+def test_pr0105_by_name_ignore_separators(om):
+    # https://github.com/openMetadataInitiative/openMINDS_Python/pull/105
     # by_name(..., ignore_separators=True) treats hyphens and underscores as spaces,
     # and collapses repeated/mixed whitespace, before matching
     Technique = om.controlled_terms.Technique
